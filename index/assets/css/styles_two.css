@@ -1,0 +1,33 @@
+
+/* dashboard styling */
+
+.general-icon{
+  font-size: 64px !important;
+}
+
+@media (min-width: 1080px){
+  body {
+    background-image: url("../media/background/desktopPlain.jpg");
+  }
+  .container-width{
+    max-width: 800px;
+  }
+}
+
+@media (max-width: 768px){
+  body {
+    background-image: url("../media/background/768-MAIN.jpg")
+  }
+}
+
+@media (max-width: 360px) {
+  body {
+    background-image: url("../media/background/360-main.jpg");
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    background-image: url("../media/background/320-main.jpg");
+  }
+}
